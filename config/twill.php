@@ -189,6 +189,9 @@ return [
         'edit_large.svg',
         'google-sign-in.svg',
     ],
+    'global_css' => [],
+    'global_js' => [],
+    'global_js_head' => [],
     /*
     |--------------------------------------------------------------------------
     | Twill app locale

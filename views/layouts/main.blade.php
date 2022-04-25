@@ -132,6 +132,9 @@
         </script>
         <script src="{{ twillAsset('chunk-vendors.js') }}"></script>
         <script src="{{ twillAsset('chunk-common.js') }}"></script>
+        @foreach(config('twill.global_js') as $globalJs)
+            <script src="{{ $globalJs }}"></script>
+        @endforeach
         @stack('extra_js')
     </body>
 </html>
